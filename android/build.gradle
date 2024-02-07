@@ -25,6 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+
+    namespace 'com.mix1009.android_path_provider'
     compileSdkVersion 28
 
     sourceSets {
